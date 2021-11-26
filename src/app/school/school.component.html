@@ -1,0 +1,6 @@
+<p
+  [ngStyle]="{ backgroundColor: getStatusColor() }"
+  [ngClass]="{ aberta: schoolSituation === 'aberta' }"
+>
+  {{ "Escola" }} de Id {{ schoolId }} e o nome é {{ getSchoolName() }}
+</p>
